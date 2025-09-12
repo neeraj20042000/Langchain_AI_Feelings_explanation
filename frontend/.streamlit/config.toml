@@ -1,0 +1,12 @@
+# config.toml
+
+# Streamlit theme configuration for AI Explanation of Feelings project.
+# Adjust colors and fonts to match branding and improve user experience.
+
+[theme]
+base = "dark"
+primaryColor = "#1DB954"               # Main accent color
+backgroundColor = "#0E1117"            # Main background
+secondaryBackgroundColor = "#262730"   # Sidebar and widget backgrounds
+textColor = "#FAFAFA"                  # Main text color
+font = "sans serif"                    # Font style
