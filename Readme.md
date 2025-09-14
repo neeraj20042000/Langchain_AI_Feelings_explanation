@@ -41,6 +41,7 @@ AI-feelings-explanation/
 ├── frontend/
 │   ├── app.py                 # Streamlit app
 │
+├── Dockerfile                 # Docker build config
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 ```
@@ -154,6 +155,10 @@ cd frontend
 streamlit run app.py
 ```
 
+## Deployment
+**(FastAPI on AWS, Dockerized)** 
+  A backend containerized with Docker and deployed on AWS, dynamically loading models and generating structured responses.
+
 ---
 
 ## Customization
@@ -193,6 +198,8 @@ Always verify important details independently, and avoid sharing sensitive or pe
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [LangChain](https://python.langchain.com/)
 - [HuggingFace](https://huggingface.co/)
+- [Docker](https://www.docker.com/)
+- [AWS](https://aws.amazon.com/)
 - **Model Providers:**
   - [Meta-Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3-3-70B-Instruct) by Meta
   - [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) by Mistral AI
