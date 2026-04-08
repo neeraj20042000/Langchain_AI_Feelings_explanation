@@ -1,8 +1,43 @@
-# AI Explanation of Feelings
+# 🤖 GenAI Emotion Explainer (LLMs + RAG)
 
-## Overview
+A full-stack Generative AI application that explains human emotions using Large Language Models (Llama, Mistral) with structured outputs.
 
-**AI Explanation of Feelings** is a web application that uses Large Language Models (LLMs) to provide detailed, human-friendly explanations of emotions or feelings entered by users. The app features a visually appealing Streamlit frontend and a FastAPI backend that supports dynamic model selection (e.g., Llama, Mistral). Users can choose which AI model to use for their query and receive a summary, synonyms, and antonyms for the feeling they enter.
+🚀 Built to demonstrate real-world GenAI system design using RAG, APIs, and cloud deployment.
+
+---
+
+## 🔥 Key Highlights
+
+• RAG-based architecture using LangChain & LangGraph  
+• Structured outputs (summary, synonyms, antonyms)  
+• Dynamic model selection (Llama / Mistral)  
+• FastAPI backend with scalable API design  
+• Dockerized deployment on AWS  
+
+---
+
+## 🧠 Why This Project Matters
+
+Most AI applications focus only on text generation.
+
+This project focuses on:
+✔ Structured outputs  
+✔ Model orchestration  
+✔ Production-ready deployment  
+
+👉 Bridging the gap between **LLM experimentation and real-world applications**
+
+---
+
+## 🌐 Live Demo
+
+https://ai-feelings.streamlit.app/
+
+---
+
+## 🛠️ Tech Stack
+
+LLMs (Llama, Mistral) | RAG | LangChain | LangGraph | FastAPI | Docker | AWS
 
 ---
 
