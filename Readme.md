@@ -2,7 +2,7 @@
 
 A full-stack Generative AI application that explains human emotions using Large Language Models (Llama, Mistral) with structured outputs.
 
-🚀 Built to demonstrate real-world GenAI system design using RAG, APIs, and cloud deployment.
+🚀 Built to demonstrate production-ready GenAI system design using RAG pipelines, APIs, and cloud deployment.
 
 ---
 
@@ -38,6 +38,21 @@ https://ai-feelings.streamlit.app/
 ## 🛠️ Tech Stack
 
 LLMs (Llama, Mistral) | RAG | LangChain | LangGraph | FastAPI | Docker | AWS
+
+---
+
+## ⚙️ Architecture
+
+User Input → RAG Pipeline → LLM → Structured Output → FastAPI → Frontend (Streamlit)
+
+---
+
+## 📂 Use Cases
+
+• AI-powered assistants  
+• Customer interaction systems  
+• Emotional intelligence applications  
+• Financial customer support systems
 
 ---
 
